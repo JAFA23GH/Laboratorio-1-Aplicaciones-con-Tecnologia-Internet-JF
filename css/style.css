@@ -153,17 +153,25 @@ section ul li {
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-    box-sizing: border-box;
+    align-items: center;   
+    width: 100%; 
+    box-sizing: border-box; 
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 section ul li img {
     width: 180px;
-    height: 180px;
+    height: 200px;
     object-fit: contain;
     margin-bottom: 10px;
 }
+
+section ul li:hover {
+    transform: scale(1.05) rotate(5deg); 
+    background-color: #99c5dd; 
+}
+
 
 footer {
     background-color: #a0c4ff;
