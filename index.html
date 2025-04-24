@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://www.ciens.ucv.ve/portalasig2/favicon.ico" type="image/x-icon">
+    <title>ATI[UCV] 2024-1</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+
+        header {
+            background-color: #a0c4ff;
+            color: white;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        header nav {
+            display: flex; 
+            align-items: center;
+            justify-content: space-between;
+            width: 100%; 
+            height: 40px; 
+        }
+
+        header .header-block {
+            display: flex; 
+            align-items: center;            
+        }
+
+       
+        header .separador {
+            width: 1px; 
+            background-color: white; 
+            height: 100%;
+            margin: 0 20px; 
+            flex-shrink: 0; 
+        }
+
+
+        header .logo {
+            font-size: 2em;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        header .logo .UCV {
+            font-size: 0.7em;
+        }    
+
+        header .search-form input[type="text"] {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 5px;
+        }
+
+         header .search-form button {
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #e0e0e0; 
+            color: black;
+            cursor: pointer;
+        }
+
+
+        section {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;           
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        section ul li {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            color: #7b9acd;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        section ul li img {
+            width: 180px;
+            height: 180px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #a0c4ff;
+            color: black;
+            font-size: 0.75em;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px 20px;
+            margin-top: auto;
+            border-top: 1px solid #ccc;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="header-block logo">
+                ATI<span class="UCV">[UCV]</span>&nbsp 2025-U
+            </div>
+            <div class="separador"></div>
+            <div class="header-block nav-name">
+                Hola, Juan Alfredo
+            </div>
+            <div class="separador"></div>
+            <div class="header-block search-form">
+                <input type="text" class="search-input" placeholder="Nombre...">
+                <button type="submit" class="search-button">Buscar</button>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <ul>
+
+            <li>
+                <img src="29966562/29966562.jpg" alt="Juan Fernandes">
+                Juan Fernandes
+            </li>
+            <li>
+                <img src="dummy6/dummy.jpg" alt="Juan Antonio Perez">
+                Juan Antonio Perez
+            </li>
+            <li>
+                <img src="dummy3/dummy.jpg" alt="Maritza Rodriguez">
+                Maritza Rodriguez
+            </li>
+            <li>
+                <img src="dummy1/dummy.jpg" alt="Emilia Casado">
+                Emilia Casado
+            </li>
+            <li>
+                <img src="dummy4/dummy.jpg" alt="Enrique Colina">
+                Enrique Colina
+            </li>
+             <li>
+                <img src="dummy2/dummy.jpg" alt="María Elena Pinto">
+                María Elena Pinto
+            </li>
+            <li>
+                <img src="dummy5/dummy.jpg" alt="Ronald Gutierrez">
+                Ronald Gutierrez
+            </li>
+            <li>
+                <img src="dummy6/dummy.jpg" alt="Juan Antonio Perez">
+                Juan Antonio Perez
+            </li>
+            <li>
+                <img src="dummy3/dummy.jpg" alt="Maritza Rodriguez">
+                Maritza Rodriguez
+            </li>
+            <li>
+                <img src="dummy1/dummy.jpg" alt="Emilia Casado">
+                Emilia Casado
+            </li>
+            <li>
+                <img src="dummy4/dummy.jpg" alt="Enrique Colina">
+                Enrique Colina
+            </li>
+             <li>
+                <img src="dummy2/dummy.jpg" alt="María Elena Pinto">
+                María Elena Pinto
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        Copyright &copy; 2025 Escuela de computación - ATI. Todos los derechos reservados
+    </footer>
+
+</body>
+</html>
